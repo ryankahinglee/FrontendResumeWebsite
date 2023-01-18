@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/projecta/static/css/main.073c9b0a.css",
-    "main.js": "/projecta/static/js/main.14b89422.js",
+    "main.js": "/projecta/static/js/main.ae59f941.js",
     "static/js/787.b8f8f611.chunk.js": "/projecta/static/js/787.b8f8f611.chunk.js",
     "static/media/airbnb.screenshot.PNG": "/projecta/static/media/airbnb.screenshot.89b9083afa141302eaf4.PNG",
     "static/media/game-screenshot.png": "/projecta/static/media/game-screenshot.8525abc1a8db2942761b.png",
     "index.html": "/projecta/index.html",
     "main.073c9b0a.css.map": "/projecta/static/css/main.073c9b0a.css.map",
-    "main.14b89422.js.map": "/projecta/static/js/main.14b89422.js.map",
+    "main.ae59f941.js.map": "/projecta/static/js/main.ae59f941.js.map",
     "787.b8f8f611.chunk.js.map": "/projecta/static/js/787.b8f8f611.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.14b89422.js"
+    "static/js/main.ae59f941.js"
   ]
 }
