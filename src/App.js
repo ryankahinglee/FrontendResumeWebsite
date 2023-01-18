@@ -25,9 +25,9 @@ function App() {
         {section === 'Home' && (
           <MobileHome />
         )}
-        {section === 'About' && (
+        {/* {section === 'About' && (
           <About />
-        )}
+        )} */}
         {/* {section === 'Projects' && (
           <MobileProjects />
         )} */}
