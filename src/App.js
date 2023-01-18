@@ -28,9 +28,9 @@ function App() {
         {section === 'About' && (
           <About />
         )}
-        {section === 'Projects' && (
+        {/* {section === 'Projects' && (
           <MobileProjects />
-        )}
+        )} */}
         <footer>
         </footer>
       </div>
