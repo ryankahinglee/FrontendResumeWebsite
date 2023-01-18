@@ -20,16 +20,14 @@ function App() {
 
   return (
     <div>   
-      {viewportSize >= 1470 && (
-        <div>
-          <MobileHeader setSection={setSection}/>
-          {section === 'Home' && (
-            <MobileHome />
-          )}
-          <footer>
-          </footer>
-        </div>
-      )}
+      <div>
+        <MobileHeader setSection={setSection}/>
+        {section === 'Home' && (
+          <MobileHome />
+        )}
+        <footer>
+        </footer>
+      </div>
     </div>
   );
 }
