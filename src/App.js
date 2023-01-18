@@ -25,6 +25,12 @@ function App() {
         {section === 'Home' && (
           <MobileHome />
         )}
+        {section === 'About' && (
+          <About />
+        )}
+        {section === 'Projects' && (
+          <MobileProjects />
+        )}
         <footer>
         </footer>
       </div>
