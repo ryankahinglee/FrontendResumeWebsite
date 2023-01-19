@@ -1,6 +1,6 @@
 import React from 'react';
-import Proposal from '../DanceProposal.pdf';
-import { Document, Page, pdfjs } from 'react-pdf';
+// import Proposal from '../DanceProposal.pdf';
+// import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import WebsiteImage from '../airbnb.screenshot.PNG';
@@ -8,16 +8,16 @@ import GameImage from '../game-screenshot.png'
 
 export default function MobileProjects () {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-  const [numPages, setNumPages] = React.useState(4);
-  const [pageNumber, setPageNumber] = React.useState(1);
+  // const [numPages, setNumPages] = React.useState(4);
+  // const [pageNumber, setPageNumber] = React.useState(1);
 
-  function onDocumentLoadSuccess({ numPages: nextNumPages }) {
-    setNumPages(nextNumPages);
-  }
+  // function onDocumentLoadSuccess({ numPages: nextNumPages }) {
+  //   setNumPages(nextNumPages);
+  // }
 
   return (
     <section className='projects-container'>
-      <h2 className='section-heading flicker-slower neon-green'>
+      {/* <h2 className='section-heading flicker-slower neon-green'>
         Projects
       </h2>
       <div>
@@ -30,7 +30,7 @@ export default function MobileProjects () {
           I made proposals using Canva for reaching out to
           potential dance sponsors.
         </div>
-      </div>
+      </div> */}
       {/* <div> 
         <React.Fragment>
           <Document file={Proposal}
