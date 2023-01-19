@@ -427,12 +427,6 @@ body {
   height: 600px;
 }
 
-.react-pdf__Page__canvas {
-  height: 566px !important;
-  width: 400px !important;
-  animation: fade-in 1s;
-}
-
 .dance-design-text {
   height: auto;
   color: #FF8D8E;
@@ -728,16 +722,6 @@ body {
   .website-image {
     padding: 0px;
   }
-
-  .react-pdf__Page {
-    height: 630px;
-  }
-
-  .react-pdf__Page__annotations {
-    margin: 0;
-    width: 0 !important;
-    height: 0 !important;
-}
 }
 
 .mobile-padding {
@@ -802,10 +786,10 @@ body {
     width: 350px;
     overflow: hidden;
   }
-  
-  .react-pdf__Page__canvas {
-    height: 533.75px !important;
-    width: 350px !important;
+
+  .dance-image {
+    height: 495px;
+    width: 350px;
   }
 }
 
