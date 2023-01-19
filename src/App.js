@@ -30,7 +30,7 @@ function App() {
           <Header />
           {/* <Home /> */}
           <About />
-          <LaptopProjects />
+          {/* <LaptopProjects /> */}
           <footer>
           </footer>
         </div>
@@ -40,7 +40,7 @@ function App() {
           <Header />
           {/* <LaptopHome /> */}
           <About />
-          <IpadProjects />
+          {/* <IpadProjects /> */}
           <footer>
           </footer>
         </div>
