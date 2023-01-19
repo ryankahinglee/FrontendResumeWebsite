@@ -45,7 +45,7 @@ body {
   width: 100vw;
   height: auto;
   display: block;
-  z-index: 1;
+  z-index: 2;
   background-color: black;
 }
 
@@ -706,7 +706,7 @@ body {
   }
 
   .about-container {
-    padding: 10rem 0 0 0;
+    padding: 10rem 2rem 0 0;
     height: 1000px;
   }
 
@@ -792,8 +792,8 @@ body {
   }
 
   .website-image {
-    height: 220px;
-    width: calc(320px + 20vw);
+    height: 200px;
+    width: calc(300px + 8vw);
   }
 
   .game-image-display {
