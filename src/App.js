@@ -3,7 +3,7 @@ import React from 'react';
 import MobileHeader from './components/MobileHeader';
 import MobileHome from './sections/MobileHome';
 import About from './sections/About';
-// import MobileProjects from './sections/MobileProjects';
+import MobileProjects from './sections/MobileProjects';
 
 function App() {
   // const [viewportSize, setviewportSize] = React.useState(window.innerWidth);
@@ -28,9 +28,9 @@ function App() {
         {section === 'About' && (
           <About />
         )}
-        {/* {section === 'Projects' && (
+        {section === 'Projects' && (
           <MobileProjects />
-        )} */}
+        )}
         <footer>
         </footer>
       </div>
