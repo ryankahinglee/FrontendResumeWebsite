@@ -31,7 +31,7 @@ export default function MobileProjects () {
           potential dance sponsors.
         </div>
       </div>
-      <div> 
+      {/* <div> 
         <React.Fragment>
           <Document file={Proposal}
             onLoadSuccess={(e) => onDocumentLoadSuccess(e)}>
@@ -65,7 +65,7 @@ export default function MobileProjects () {
             </div>
           </div>
         </React.Fragment>
-      </div>
+      </div> */}
       <div>
         <div className='neon-text-light-blue project-row-title'>
           Website
