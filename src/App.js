@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-// import Header from './components/Header';
+import Header from './components/Header';
 // import Home from './sections/Home';
 import About from './sections/About';
-// import LaptopProjects from './sections/LaptopProjects';
+import LaptopProjects from './sections/LaptopProjects';
 // import LaptopHome from './sections/LaptopHome';
 // import IpadProjects from './sections/IpadProjects';
 import MobileHeader from './components/MobileHeader';
@@ -25,16 +25,16 @@ function App() {
 
   return (
     <div>   
-      {/* {viewportSize >= 1470 && (
+      {viewportSize >= 1470 && (
         <div>
           <Header />
-          <Home />
+          {/* <Home /> */}
           <About />
           <LaptopProjects />
           <footer>
           </footer>
         </div>
-      )}   */}
+      )}  
       {/* {viewportSize >= 1060 && viewportSize < 1470 && (
         <div>
           <Header />
