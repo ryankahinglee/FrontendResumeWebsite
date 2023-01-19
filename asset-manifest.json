@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/projecta/static/css/main.bc91089d.css",
-    "main.js": "/projecta/static/js/main.560db933.js",
+    "main.css": "/projecta/static/css/main.101aebfc.css",
+    "main.js": "/projecta/static/js/main.8968a5fa.js",
     "static/js/787.b8f8f611.chunk.js": "/projecta/static/js/787.b8f8f611.chunk.js",
+    "static/media/DanceProposal.pdf": "/projecta/static/media/DanceProposal.07b4044f7c4f7226bb40.pdf",
     "static/media/airbnb.screenshot.PNG": "/projecta/static/media/airbnb.screenshot.89b9083afa141302eaf4.PNG",
     "static/media/game-screenshot.png": "/projecta/static/media/game-screenshot.8525abc1a8db2942761b.png",
     "static/media/Dance proposal snippet.PNG": "/projecta/static/media/Dance proposal snippet.a9846ec3d075bc39c2b9.PNG",
     "index.html": "/projecta/index.html",
-    "main.bc91089d.css.map": "/projecta/static/css/main.bc91089d.css.map",
-    "main.560db933.js.map": "/projecta/static/js/main.560db933.js.map",
+    "main.101aebfc.css.map": "/projecta/static/css/main.101aebfc.css.map",
+    "main.8968a5fa.js.map": "/projecta/static/js/main.8968a5fa.js.map",
     "787.b8f8f611.chunk.js.map": "/projecta/static/js/787.b8f8f611.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc91089d.css",
-    "static/js/main.560db933.js"
+    "static/css/main.101aebfc.css",
+    "static/js/main.8968a5fa.js"
   ]
 }
