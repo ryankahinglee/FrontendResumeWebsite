@@ -4,8 +4,8 @@ import Header from './components/Header';
 // import Home from './sections/Home';
 import About from './sections/About';
 import LaptopProjects from './sections/LaptopProjects';
-// import LaptopHome from './sections/LaptopHome';
-// import IpadProjects from './sections/IpadProjects';
+import LaptopHome from './sections/LaptopHome';
+import IpadProjects from './sections/IpadProjects';
 import MobileHeader from './components/MobileHeader';
 import MobileHome from './sections/MobileHome';
 import MobileProjects from './sections/MobileProjects';
@@ -35,7 +35,7 @@ function App() {
           </footer>
         </div>
       )}  
-      {/* {viewportSize >= 1060 && viewportSize < 1470 && (
+      {viewportSize >= 1060 && viewportSize < 1470 && (
         <div>
           <Header />
           <LaptopHome />
@@ -44,7 +44,7 @@ function App() {
           <footer>
           </footer>
         </div>
-      )} */}
+      )}
       {viewportSize < 1060 && (
         <div>
           <MobileHeader setSection={setSection}/>
