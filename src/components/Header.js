@@ -11,7 +11,7 @@ export default function Header () {
         <div>
           <p className='header-name flicker-slowest'  
             onClick ={onResumeClick}
-          >Ryan Kahing Lee
+          >Resume
           </p>
         </div>
         <ul className='header-list'>

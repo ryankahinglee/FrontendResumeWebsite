@@ -130,6 +130,12 @@ body {
   height: 90%;
 }
 
+.dance-image {
+  height: 636px;
+  width: 450px;
+  padding: 0 0 0 20px;
+}
+
 .neon-pink {
   color: #fff;
   text-shadow:
@@ -403,7 +409,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 370px;
-  width: 800px;
+  width: 900px;
 }
 
 .dance-text {
@@ -412,7 +418,7 @@ body {
   letter-spacing: 0.5px;
   line-height: 22pt;
   width: 300px;
-  padding: 0 30px;
+  padding: 0 0 0 3vw;
 }
 
 .dance-design {
@@ -606,21 +612,20 @@ body {
 
 @media only screen and (max-width: 2050px) {
   .dance-text {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 160px;
+  }
+
+  .dance-image {
+    height: 566px;
+    width: 400px;
   }
 }
 
 @media only screen and (max-width: 1600px) {
-  .react-pdf__Page__canvas {
-    padding: 70px 0 0 0;
-    height: 550px !important;
-    width: 360px !important;
-  }
-
   .dance-text {
     min-width: 300px;
     padding: 0 30px;
-    margin: 0 0 0 180px;
+    margin: 0 0 0 200px;
   }
 
   .website-description {
@@ -630,21 +635,21 @@ body {
   .website-text {
     width: 400px;
   }
+
+  .dance-image {
+    height: 566px;
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 1470px) {
-  .react-pdf__Page__canvas {
-    height: 550px !important;
-    width: 360px !important;
-  }
-
   .dance-design-bottom {
     padding: 2rem 0;
     width: 375px;
   }
 
   .projects-container {
-    height: 2100px;
+    height: 2600px;
   }
 
   .website-image {
@@ -671,7 +676,7 @@ body {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding: 5px;
+  padding: 20px 5px 5px 5px;
 }
 
 .project-text {
@@ -680,6 +685,7 @@ body {
   width: 300px;
   letter-spacing: 0.5px;
   line-height: 22pt;
+  padding: 15px 0;
 }
 
 .menu-icon {
@@ -749,11 +755,6 @@ body {
 
 .home-hi {
   font-size: 80px;
-}
-
-.dance-image {
-  height: 500px;
-  width: calc(300px + 8vw);
 }
 
 @media only screen and (max-width: 600px) {

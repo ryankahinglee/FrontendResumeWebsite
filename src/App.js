@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 // import Home from './sections/Home';
 import About from './sections/About';
-// import LaptopProjects from './sections/LaptopProjects';
+import LaptopProjects from './sections/LaptopProjects';
 // import LaptopHome from './sections/LaptopHome';
 // import IpadProjects from './sections/IpadProjects';
 import MobileHeader from './components/MobileHeader';
@@ -28,9 +28,9 @@ function App() {
       {viewportSize >= 1470 && (
         <div>
           <Header />
-          {/* <Home /> */}
+          <MobileHome />
           <About />
-          {/* <LaptopProjects /> */}
+          <LaptopProjects />
           <footer>
           </footer>
         </div>
@@ -38,9 +38,9 @@ function App() {
       {viewportSize >= 1060 && viewportSize < 1470 && (
         <div>
           <Header />
-          {/* <LaptopHome /> */}
+          <MobileHome />
           <About />
-          {/* <IpadProjects /> */}
+          <MobileProjects />
           <footer>
           </footer>
         </div>

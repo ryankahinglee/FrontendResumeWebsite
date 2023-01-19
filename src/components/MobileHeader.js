@@ -13,7 +13,7 @@ export default function Header ({setSection}) {
       <div className='header-container'>
         <div className=''>
           <p className='header-name flicker-slowest'  
-            onClick ={onResumeClick}>Ryan Kahing Lee
+            onClick ={onResumeClick}>Resume
           </p>
         </div>
         <div>
