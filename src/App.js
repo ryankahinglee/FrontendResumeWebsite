@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Header from './components/Header';
-import Home from './sections/Home';
+// import Header from './components/Header';
+// import Home from './sections/Home';
 import About from './sections/About';
-import LaptopProjects from './sections/LaptopProjects';
+// import LaptopProjects from './sections/LaptopProjects';
 // import LaptopHome from './sections/LaptopHome';
 // import IpadProjects from './sections/IpadProjects';
 import MobileHeader from './components/MobileHeader';
