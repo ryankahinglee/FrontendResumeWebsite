@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import MobileHeader from './components/MobileHeader';
 import MobileHome from './sections/MobileHome';
