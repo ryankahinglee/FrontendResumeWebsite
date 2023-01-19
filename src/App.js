@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import MobileHeader from './components/MobileHeader';
 import MobileHome from './sections/MobileHome';
-// import About from './sections/About';
+import About from './sections/About';
 // import MobileProjects from './sections/MobileProjects';
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
         {section === 'Home' && (
           <MobileHome />
         )}
-        {/* {section === 'About' && (
+        {section === 'About' && (
           <About />
-        )} */}
+        )}
         {/* {section === 'Projects' && (
           <MobileProjects />
         )} */}
