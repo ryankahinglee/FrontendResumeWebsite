@@ -706,7 +706,7 @@ body {
 @media only screen and (max-width: 1060px) {
   .home-background {
     padding-top: 6rem; 
-    height: 90vh;
+    height: 100vh;
   }
 
   .about-description-text {
@@ -760,7 +760,7 @@ body {
   }
 
   .mobile-padding {
-    padding: 50px 0;
+    padding: 3vh 0;
   }
 
   .about-description {
