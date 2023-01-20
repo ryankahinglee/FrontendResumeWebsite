@@ -34,18 +34,21 @@ export default function Header ({setSection}) {
                 <div className='menu-item' onClick={() => {
                   setOpen(false);
                   setSection('Home')
+                  window.scrollTo({top: 0})
                 }}>
                   Home
                 </div>
                 <div className='menu-item' onClick={() => {
                   setOpen(false);
                   setSection('About');
+                  window.scrollTo({top: 0})
                 }}>
                   About
                 </div>
                 <div className='menu-item' onClick={() => {
                   setOpen(false);
                   setSection('Projects')
+                  window.scrollTo({top: 0})
                 }}>
                   Projects
                 </div>
