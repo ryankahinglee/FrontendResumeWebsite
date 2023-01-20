@@ -150,7 +150,7 @@ body {
 
 .home-background {
   background-color: black;
-  height: 1100px;
+  height: 1050px;
   padding-top: 12rem; 
 }
 .home-container { 
@@ -169,7 +169,6 @@ body {
 
 .home-greet {
   color: white;
-  font-size: 80px;
   width: 60vw;
 }
 
@@ -522,6 +521,18 @@ body {
   overflow: hidden;
 }
 
+.home-name {
+  font-size: 65px;
+}
+
+.home-detail {
+  font-size: 40px;
+}
+
+.home-hi {
+  font-size: 70px;
+}
+
 .repo-button {
   position: relative;
   text-align: center;
@@ -652,7 +663,7 @@ body {
   }
 
   .home-name {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
@@ -693,12 +704,9 @@ body {
 }
 
 @media only screen and (max-width: 1060px) {
-  .home-container {
-    height: 1050px;
-  }
-
   .home-background {
     padding-top: 6rem; 
+    height: 90vh;
   }
 
   .about-description-text {
@@ -706,7 +714,7 @@ body {
   }
 
   .about-container {
-    padding: 10rem 2rem 0 0;
+    padding: 10rem 0 0 0;
     height: 1000px;
   }
 
@@ -722,28 +730,23 @@ body {
   .website-image {
     padding: 0px;
   }
+
+  .home-detail {
+    font-size: 40px;
+  }
+
+  .about-details {
+    width: 60vw;
+  }
 }
 
 .mobile-padding {
   padding: 60px 0px;
 }
 
-
-.home-name {
-  font-size: 60px;
-}
-
-.home-detail {
-  font-size: 40px;
-}
-
-.home-hi {
-  font-size: 80px;
-}
-
 @media only screen and (max-width: 600px) {
   .home-background {
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
 
   .projects-container {
@@ -753,7 +756,7 @@ body {
   }
 
   .home-hi {
-    font-size: 120px;
+    font-size: 50px;
   }
 
   .mobile-padding {
@@ -790,6 +793,14 @@ body {
   .dance-image {
     height: 424px;
     width: 300px;
+  }
+
+  .home-name {
+    font-size: 30px;
+  }
+
+  .home-detail {
+    font-size: 30px;
   }
 }
 
