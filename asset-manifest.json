@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/projecta/static/css/main.03ba47a6.css",
+    "main.css": "/projecta/static/css/main.51818816.css",
     "main.js": "/projecta/static/js/main.3cd22efd.js",
     "static/js/787.b8f8f611.chunk.js": "/projecta/static/js/787.b8f8f611.chunk.js",
     "static/media/airbnb.screenshot.PNG": "/projecta/static/media/airbnb.screenshot.89b9083afa141302eaf4.PNG",
     "static/media/game-screenshot.png": "/projecta/static/media/game-screenshot.8525abc1a8db2942761b.png",
     "static/media/Dance proposal snippet.PNG": "/projecta/static/media/Dance proposal snippet.a9846ec3d075bc39c2b9.PNG",
     "index.html": "/projecta/index.html",
-    "main.03ba47a6.css.map": "/projecta/static/css/main.03ba47a6.css.map",
+    "main.51818816.css.map": "/projecta/static/css/main.51818816.css.map",
     "main.3cd22efd.js.map": "/projecta/static/js/main.3cd22efd.js.map",
     "787.b8f8f611.chunk.js.map": "/projecta/static/js/787.b8f8f611.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ba47a6.css",
+    "static/css/main.51818816.css",
     "static/js/main.3cd22efd.js"
   ]
 }
