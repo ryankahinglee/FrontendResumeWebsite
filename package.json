@@ -1,7 +1,7 @@
 {
   "name": "projecta",
   "version": "0.1.0",
-  "homepage": "http://ryankahinglee.github.io/projecta",
+  "homepage": "http://ryankahinglee.github.io/FrontendResumeWebsite",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
