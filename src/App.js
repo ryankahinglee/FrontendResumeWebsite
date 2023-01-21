@@ -1,14 +1,11 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-// import Home from './sections/Home';
 import About from './sections/About';
-import LaptopProjects from './sections/LaptopProjects';
-// import LaptopHome from './sections/LaptopHome';
-// import IpadProjects from './sections/IpadProjects';
+import LargeViewportProjects from './sections/LargeViewportProjects';
 import MobileHeader from './components/MobileHeader';
-import MobileHome from './sections/MobileHome';
-import MobileProjects from './sections/MobileProjects';
+import Home from './sections/Home';
+import SmallViewportProjects from './sections/SmallViewportProjects';
 
 function App() {
   const [viewportSize, setviewportSize] = React.useState(window.innerWidth);
@@ -19,46 +16,44 @@ function App() {
     }
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [])
+  }, []);
+
+  React.useEffect(() => {
+    document.title = `Ryan's Website`;
+  }, []);
 
   const [section, setSection] = React.useState('Home');
 
   return (
-    <div>   
+    <div>
       {viewportSize >= 1470 && (
         <div>
           <Header />
-          <MobileHome />
+          <Home />
           <About />
-          <LaptopProjects />
-          <footer>
-          </footer>
+          <LargeViewportProjects />
         </div>
       )}  
       {viewportSize >= 1060 && viewportSize < 1470 && (
         <div>
           <Header />
-          <MobileHome />
+          <Home />
           <About />
-          <MobileProjects />
-          <footer>
-          </footer>
+          <SmallViewportProjects />
         </div>
       )}
       {viewportSize < 1060 && (
         <div>
           <MobileHeader setSection={setSection}/>
           {section === 'Home' && (
-            <MobileHome />
+            <Home />
           )}
           {section === 'About' && (
             <About />
           )}
           {section === 'Projects' && (
-            <MobileProjects />
+            <SmallViewportProjects />
           )}
-          <footer>
-          </footer>
         </div>
       )}
     </div>

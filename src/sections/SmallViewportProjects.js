@@ -58,9 +58,9 @@ export default function MobileProjects () {
       <div 
           className='repo-button'
           onClick={() => {window.open('https://github.com/ryankahinglee/Java-Dungeon', '_blank')}}
-        >
-          Github
-        </div>
+      >
+        Github
+      </div>
     </section>
   )
 }
